@@ -153,6 +153,13 @@ numbers.forEach{
 for num in numbers{
     print(num)
 }
+Array Map Function
+Array has a method called map which takes a function as an argument.
+It applies that function to each element of the Array to create and return a new Array.
+let primes = [2.0, 3.0, 5.0, 7.0, 11.0]
+let negativePrimes = primes.map({ -$0 }) // [-2.0, -3.0, -5.0, -7.0, -11.0]
+let invertedPrimes = primes.map() { 1.0/$0 } // [0.5, 0.333, 0.2, etc.]
+let primeStrings = primes.map { String($0) } // [“2.0”,”3.0”,”5.0”,”7.0”,”11.0”]
 
 //Dictionary
 
